@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+body {
+    background-color: beige;
+}
+
+header {
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: pink;
+    color: beige;
+
+}
+
+header h1{
+    display: inline-block;
+    font-size: 40px;
+}
+
+
+
