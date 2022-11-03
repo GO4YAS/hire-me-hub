@@ -1,25 +1,124 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: serif;
 }
 
 body {
     background-color: beige;
 }
 
-header {
-    padding: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: pink;
-    color: beige;
+.flex {
+    display:flexbox;
+    flex-direction: column ;
+
 
 }
+/*Title*/
+header {
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: pink;
+    color: beige;
+    
+}
+
 
 header h1{
     display: inline-block;
     font-size: 40px;
 }
+/*Avatar*/
+h1 img {
+    border-radius: 50%;
+    max-width: 50px;
+}
+/*Background image*/
+ .back-img { 
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("..//assets/photos/2nd\ beg.webp");
+    background-size: cover;
+    background-position: center;
+}
+/*Primary Section*/
+nav{
+    padding-top: 20px;
+    margin-right: 20px;
+    float: right;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+/*header links*/
+
+nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a{
+    color: pink;
+    text-decoration: none;
+}
+/*Info About Me*/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 40px;
+}
+li br {
+    display: inline-block;
+}
+h2 {
+    font-size:x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    width: 50%;
+    margin-block-start: 20px;
+    
+}
+/*links*/
+.section2 {
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    width: 50%;
+}
+
+aside {
+        margin-left: 1050px;
+        padding: 20px;
+        clear: both;
+        float: right;
+        width: 20%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: pink; 
+}
+
+aside img {
+   display: grid;
+   margin-left: 5px auto;
+   max-width: 50px;
+   mix-blend-mode:color-burn;
+   border-radius: 50%;
+}
+
+p {
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 
 
+/*Copy Rights*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family:serif;
+    text-align:center;
+}
+
+footer h4 {
+    font-size: 20px;
+}
